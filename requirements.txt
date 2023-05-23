@@ -2,7 +2,7 @@ alembic==1.10.4
 altgraph==0.17.3
 amqp==5.1.1
 appdirs==1.4.3
-apturl==0.5.2
+# apturl==
 asgiref==3.6.0
 async-timeout==4.0.2
 auto-py-to-exe==2.30.0
