@@ -12,7 +12,12 @@ pipeline {
         stage('Test') {
             steps {
                 // Run unit tests
-                sh 'python manage.py test'
+                sh 'python3 manage.py test'
+            }
+        }
+         stage('Deploy') {
+            steps {
+                echo "deploying..........."
             }
         }
     }
