@@ -7,6 +7,10 @@ on:
   pull_request:
     branches:
       - satge
+  issues:
+    types:
+      - opened
+
 
 jobs:
   build:
