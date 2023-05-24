@@ -1,6 +1,7 @@
 from django import forms
 from jenkinsapp.models import Student
 
+
 class StudentRegistrationForm(forms.ModelForm):
     class Meta:
         model = Student

@@ -21,3 +21,5 @@ class StudentRegistrationTestCase(TestCase):
         }
         form = StudentRegistrationForm(data=form_data)
         self.assertFalse(form.is_valid())
+
+        
