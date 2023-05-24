@@ -32,7 +32,4 @@ jobs:
 
       - name: Deploy
         run: echo "deploying..........."
-      - name: Trigger Pipeline
-        uses: <YOUR_PREFERRED_ACTION_OR_COMMAND>
-        with:
-          issue-number: ${{ github.event.issue.number }}
+      
