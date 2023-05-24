@@ -3,6 +3,7 @@ from jenkinsapp.forms import StudentRegistrationForm
 
 # Create your tests here.
 
+
 class StudentRegistrationTestCase(TestCase):
     def test_student_registration_form_valid(self):
         form_data = {
@@ -21,5 +22,3 @@ class StudentRegistrationTestCase(TestCase):
         }
         form = StudentRegistrationForm(data=form_data)
         self.assertFalse(form.is_valid())
-
-        
