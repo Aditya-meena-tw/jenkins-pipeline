@@ -33,3 +33,8 @@ jobs:
       - name: Deploy
         run: echo "deploying..........."
       
+       - name: Trigger Pipeline
+        run: |
+          # Replace this with the command that starts your pipeline
+          # Use the ${{ github.event.issue.number }} to access the issue number
+          echo "Starting pipeline for issue number ${{ github.event.issue.number }}"
