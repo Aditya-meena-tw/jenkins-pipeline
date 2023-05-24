@@ -14,7 +14,7 @@ on:
 
 jobs:
 
-  flake8:
+  build:
     runs-on: ubuntu-latest
 
     steps:
